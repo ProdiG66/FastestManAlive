@@ -5,13 +5,9 @@
 
 // Copyright (c) 2024 Jan Enri Arquero. All rights reserved.
 
-
-#include "Actors/Superman.h"
-
 #include "VFX/AfterimageVFX.h"
 #include "EnhancedInputComponent.h"
 #include "Components/SpeedsterStats.h"
-#include "Components/FlightCombat.h"
 #include "Blueprint/UserWidget.h"
 #include "Components/CapsuleComponent.h"
 #include "Components/SpeedForceCombat.h"

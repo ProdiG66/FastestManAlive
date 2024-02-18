@@ -5,7 +5,6 @@
 
 #include "NiagaraFunctionLibrary.h"
 #include "Actors/LightningBolt.h"
-#include "Components/Flight.h"
 #include "GameFramework/Character.h"
 
 // Sets default values for this component's properties

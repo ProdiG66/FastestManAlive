@@ -16,7 +16,6 @@ void USmearVFX::BeginPlay() {
 	Character = Cast<ACharacter>(GetOwner());
 	Mesh = Character->GetMesh();
 	Combat = GetOwner()->GetComponentByClass<UCombat>();
-	Flight = GetOwner()->GetComponentByClass<UFlight>();
 	Stats = GetOwner()->GetComponentByClass<UBaseStats>();
 	CreateDMI();
 }

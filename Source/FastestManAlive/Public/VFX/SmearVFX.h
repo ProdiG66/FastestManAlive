@@ -4,7 +4,6 @@
 
 #include "CoreMinimal.h"
 #include "Components/Combat.h"
-#include "Components/Flight.h"
 #include "Components/ActorComponent.h"
 #include "SmearVFX.generated.h"
 
@@ -27,7 +26,6 @@ private:
 	TWeakObjectPtr<ACharacter> Character;
 	TWeakObjectPtr<USkeletalMeshComponent> Mesh;
 	TWeakObjectPtr<UCombat> Combat;
-	TWeakObjectPtr<UFlight> Flight;
 	TWeakObjectPtr<UBaseStats> Stats;
 
 public:
